@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bouncy_ball
+# Target rules for targets named bouncyball
 
 # Build rule for target.
-bouncy_ball: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bouncy_ball
-.PHONY : bouncy_ball
+bouncyball: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bouncyball
+.PHONY : bouncyball
 
 # fast build rule for target.
-bouncy_ball/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncy_ball.dir/build.make CMakeFiles/bouncy_ball.dir/build
-.PHONY : bouncy_ball/fast
+bouncyball/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncyball.dir/build.make CMakeFiles/bouncyball.dir/build
+.PHONY : bouncyball/fast
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncy_ball.dir/build.make CMakeFiles/bouncy_ball.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncyball.dir/build.make CMakeFiles/bouncyball.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -142,7 +142,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncy_ball.dir/build.make CMakeFiles/bouncy_ball.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncyball.dir/build.make CMakeFiles/bouncyball.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -150,7 +150,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncy_ball.dir/build.make CMakeFiles/bouncy_ball.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncyball.dir/build.make CMakeFiles/bouncyball.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... bouncy_ball"
+	@echo "... bouncyball"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

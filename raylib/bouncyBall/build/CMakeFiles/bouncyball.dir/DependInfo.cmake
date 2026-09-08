@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rgt/workshop/c_here/raylib/bouncyBall/main.c" "CMakeFiles/bouncy_ball.dir/main.c.o" "gcc" "CMakeFiles/bouncy_ball.dir/main.c.o.d"
-  "" "bouncy_ball" "gcc" "CMakeFiles/bouncy_ball.dir/link.d"
+  "/home/rgt/workshop/c_here/raylib/bouncyBall/main.c" "CMakeFiles/bouncyball.dir/main.c.o" "gcc" "CMakeFiles/bouncyball.dir/main.c.o.d"
+  "" "bouncyball" "gcc" "CMakeFiles/bouncyball.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
