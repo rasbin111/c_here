@@ -19,7 +19,7 @@ int main(void)
 
     SetTargetFPS(60);
 
-    while (WindowShouldClose()) {
+    while (!WindowShouldClose()) {
         if (IsKeyPressed(KEY_G))
             useGravity = !useGravity;
         if (IsKeyPressed(KEY_SPACE))
@@ -60,7 +60,7 @@ int main(void)
 
         EndDrawing();
     }
-    /* CloseWindow(); */
+    CloseWindow();
 
     return 0;
 }
