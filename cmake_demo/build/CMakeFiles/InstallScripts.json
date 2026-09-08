@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/rgt/workshop/c_here/cmake_demo/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
