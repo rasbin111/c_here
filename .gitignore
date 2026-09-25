@@ -2,4 +2,6 @@
 build/
 
 *.txt
+*.DAT
+*.dat
 !CMakeLists.txt

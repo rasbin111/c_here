@@ -16,6 +16,7 @@ int main() {
   while (ch == 'Y') {
     printf("Enter name, age, salary:");
     scanf("%s %d %f", e.name, &e.age, &e.bs);
+    getchar();
     fprintf(fp, "%s %d %f\n", e.name, e.age, e.bs);
     printf("Another record:");
     ch = getchar();
